@@ -2,6 +2,7 @@
 title: "My awesome website"
 output: 
   html_document:
+    code_folding: hide
     toc: true
     toc_float: true
 ---
@@ -31,9 +32,24 @@ Let's link to useful tools for data science.
 
 Picture of flowers:
 
+Could use this code (it's easier to control the styling of the image with html):
+<img src ="images/Flowers.png" style="width:75%">
+
+Or this code:
 ![](images/Flowers.png)
 
 ## Link within the site
 
 [About Me](About.html)
 
+## Quarterly Results {.tabset}
+
+### By Product
+
+This is the first tab.
+
+### By Region
+
+This is the second tab.
+
+# This is a new section
